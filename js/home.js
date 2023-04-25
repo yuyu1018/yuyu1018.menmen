@@ -50,7 +50,7 @@ for (const link of links) {
   link.addEventListener('click', (event) => {
     event.preventDefault(); // リンクによるページ遷移をキャンセル
     const url = link.getAttribute('href'); // リンク先 URL を読み込む
-    window.location.assign = url; // リンク先ページに遷移する
+    window.location.href = url; // リンク先ページに遷移する
   });
 }
 
