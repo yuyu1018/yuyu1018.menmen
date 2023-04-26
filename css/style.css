@@ -315,3 +315,7 @@ a:hover{
     margin: 0;
     display: grid;  
   }
+
+  .title-img{
+    width: 150px;
+  }

@@ -305,3 +305,7 @@ input[type="submit"] {
   .footer a:hover{
     border-bottom:1px solid #000000;
   }
+
+  .title-img{
+    width: 150px;
+  }

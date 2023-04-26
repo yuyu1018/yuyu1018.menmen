@@ -272,3 +272,7 @@ input[type="submit"] {
     margin: 0;
     display: grid;  
   }
+
+  .title-img{
+    width: 150px;
+  }
