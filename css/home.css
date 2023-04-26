@@ -32,18 +32,46 @@ body{
 }
 
 /* レスポンシブデザイン */
-@media screen and(max-width: 768px) {
-  .app{
-    width: auto;
+@media screen and (max-width: 768px) {
+  .header {
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
   }
-    
   
-    
+  .ra-men-img {
+  width: 60px;
+  margin: 10px 0;
+  }
   
-
+  .title-app {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  }
   
-}
-
+  #form1 {
+  flex: 1;
+  max-width: none;
+  margin-top: 10px;
+  }
+  
+  #sbox {
+  width: 100%;
+  right: auto;
+  top: auto;
+  margin-top: 10px;
+  margin-right: 0;
+  }
+  
+  #sbtn {
+  width: 100%;
+  right: auto;
+  top: auto;
+  margin-top: 10px;
+  margin-right: 0;
+  }
+  }
 
 
 /*フォーム全体*/
