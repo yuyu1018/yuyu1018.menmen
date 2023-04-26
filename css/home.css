@@ -16,7 +16,7 @@ body{
 
 .title-app{
   margin-top: 30px;
-  max-width: 280px;
+  width: 280px;
   height: 65px;
   object-fit: cover;
 
@@ -33,16 +33,19 @@ body{
 
 /* レスポンシブデザイン */
 @media screen and (max-width: 768px) {  
-  body{
-    width: 300px;
+  .body{
+    width: auto;
   }
   .header{
-    width: 100%;
+    width: auto;
   }
   .ra-men-img{
-    width: 85px;
+    width: 10%;
   }
   
+  #g_navi{
+    width: auto;
+  }
   
   
 }
@@ -106,7 +109,7 @@ body{
   margin: 0 auto;		
   padding: 0 3%;		
   width: 94%;		
-  max-width: 960px;		
+  width: 960px;		
   list-style-type: none;
 }		
 
@@ -129,7 +132,7 @@ body{
         color: #7fbfff;		
       }
 .app{
-    max-width: 800px;
+    width: 800px;
     text-align: center;
     margin: 200px auto;
     background: #fff;
