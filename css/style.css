@@ -4,6 +4,12 @@ body{
   background: #e6e6e6;
 }
 
+
+@media screen and(max-width: 760px){
+  
+  
+}
+
 .header{
   display: flex;
   background: #fff;
@@ -308,13 +314,7 @@ a:hover{
     }
   }
 
-  .footer-item{
-    font-family: 毛筆太文字, sans-serif;
-    color: #000000;
-    font-size: 35px;
-    margin: 0;
-    display: grid;  
-  }
+  
 
   .title-img{
     width: 150px;
