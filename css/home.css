@@ -16,7 +16,7 @@ body{
 
 .title-app{
   margin-top: 30px;
-  width: 280px;
+  max-width: 280px;
   height: 65px;
   object-fit: cover;
 
@@ -32,46 +32,21 @@ body{
 }
 
 /* レスポンシブデザイン */
-@media screen and (max-width: 768px) {
-  .header {
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 10px;
+@media screen and (max-width: 768px) {  
+  body{
+    width: 300px;
+  }
+  .header{
+    width: 100%;
+  }
+  .ra-men-img{
+    width: 85px;
   }
   
-  .ra-men-img {
-  width: 60px;
-  margin: 10px 0;
-  }
   
-  .title-app {
-  width: 200px;
-  height: auto;
-  margin: 10px;
-  }
   
-  #form1 {
-  flex: 1;
-  max-width: none;
-  margin-top: 10px;
-  }
-  
-  #sbox {
-  width: 100%;
-  right: auto;
-  top: auto;
-  margin-top: 10px;
-  margin-right: 0;
-  }
-  
-  #sbtn {
-  width: 100%;
-  right: auto;
-  top: auto;
-  margin-top: 10px;
-  margin-right: 0;
-  }
-  }
+}
+
 
 
 /*フォーム全体*/
@@ -154,7 +129,7 @@ body{
         color: #7fbfff;		
       }
 .app{
-    width: 800px;
+    max-width: 800px;
     text-align: center;
     margin: 200px auto;
     background: #fff;
