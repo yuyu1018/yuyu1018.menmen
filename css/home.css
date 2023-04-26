@@ -33,21 +33,26 @@ body{
 
 /* レスポンシブデザイン */
 @media screen and (max-width: 768px) {  
-  .body{
+  body{
     width: auto;
   }
   .header{
-    width: auto;
+    height: auto;
   }
   .ra-men-img{
-    width: 10%;
   }
   
   #g_navi{
     width: auto;
   }
   
+  ul{
+    width: auto;
+  }
   
+  .app{
+    width: auto;
+  }
 }
 
 
