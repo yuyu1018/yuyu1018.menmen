@@ -30,22 +30,7 @@ body{
  
 }
 
-@-moz-document url-prefix() {
-  @media screen and (max-width: 768px)  {  
-  body{
-    width: auto;
-  }
-  .header{
-    width: auto;
-    height: auto;
-  }
 
-  .title-app{
-    width: 60%;
-    margin-left: 30px;
-  }
-}
-  }
 
 
 /*フォーム全体*/
@@ -87,18 +72,7 @@ body{
   color:#666; 
   }
 
-  @-moz-document url-prefix() {
-    @media (max-width: 768px){ 
-      
-      #form1{
-        display: none;
-      }
-
-
-
-
-    }}
-
+  
 
 
 
@@ -144,42 +118,7 @@ body{
       }
 
 
-      @-moz-document url-prefix() {
-        @media (max-width: 768px){ 
-      
-        .app{
-        width: 400px;
-        margin-top: 30px;
-      }
-      h3{
-        width: 290px;
-        margin: 0 auto;
-        margin-top: 30px;
-      }
-      p{
-        font-size: 13px;
-      }
-      
-      #cup-noodle-rankings{
-        padding: 10px;
-        font-size: 20px;
-      }
-
-      
-
-      #g_navi ul{
-        font-size: 12px;
-        width: auto;
-      }
-
-      #g_navi ul li{
-        width: 16%;
-        text-align: center;
-      }
-    }
-  }
-
-
+     
 .app{
     max-width: 800px;
     text-align: center;
