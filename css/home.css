@@ -30,6 +30,17 @@ body{
  
 }
 
+@media only screen and (max-width: 768px){
+  .header{
+    height: auto;
+  }
+  
+  .title-app{
+    max-width: 100%;
+    width: 200px;
+    margin-left: 20px;
+  }
+}
 
 
 
@@ -73,7 +84,11 @@ body{
   }
 
   
-
+  @media only screen and (max-width: 768px){
+  #form1{
+    display: none;
+  }
+}
 
 
   
@@ -116,6 +131,17 @@ body{
 #g_navi ul li a:hover {			
         color: #7fbfff;		
       }
+
+
+      @media only screen and (max-width: 768px){
+        #g_navi{
+          max-width: 100%;
+          width: auto;
+        }
+      }
+
+
+
 
 
      
