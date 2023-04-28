@@ -93,7 +93,8 @@ body{
 #g_navi ul {		
   display: flex;		
   margin: 0 auto;		
-  padding: 0 3%;		
+  padding: 0 3%;
+  width: 94%;		
   width: 960px;		
   list-style-type: none;
 }		
