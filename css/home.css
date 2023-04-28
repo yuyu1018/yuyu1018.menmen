@@ -342,15 +342,16 @@ margin-top: 30px;
 }
 
 #minutes{
-  width: 110px;
+  width: 90px;
+  height: 47px;
   padding: 12px;
   font-size: 15px;
   display: inline-block;
   margin: 10px;
-  background: #5ebfff;
+  background: #ffffff;
   font-weight: bold;
-  color: #ffffff;
-  border: 1px solid #000000;
+  color: #000000;
+  border: 2px solid #000000;
   border-radius: 10px;
 
 
@@ -364,15 +365,15 @@ select option{
 
 #start,
 #stop,#reset{
-  width: 110px;
+  width: 95px;
   padding: 10px;
   font-size: 15px;
   display: inline-block;
   margin: 0 10px;
-  background: #5ebfff;
+  background: #ffffff;
   font-weight: bold;
-  color: #ffffff;
-  border: 1px solid #000000;
+  color: #000000;
+  border: 2px solid #000000;
   border-radius: 10px;
 
 }
