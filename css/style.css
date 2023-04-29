@@ -125,6 +125,15 @@ body{
     padding: 5px 45px;
   }
 
+
+  @media screen and (max-width: 800px){
+    .app{ 
+    width: 100%;
+    padding: 0 auto;
+    margin-bottom: 0;
+  }
+}
+
   .app p{
   text-align: left;
 }
@@ -144,6 +153,12 @@ table{
   border-color: #c5c4c4;
   width: 700px;
   margin: 30px auto;
+}
+
+@media screen and (max-width: 800px){
+  table{ 
+    width: 690px;
+}
 }
 
 td{
@@ -238,7 +253,7 @@ a:hover{
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 24px;
+  font-size: 50px;
   font-weight: bold;
   cursor: pointer;
 }
