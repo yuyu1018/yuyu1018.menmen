@@ -152,6 +152,7 @@ body{
 
 table{
   border-color: #c5c4c4;
+  width: 100%;
   width: 670px;
   margin: 30px auto;
 }
@@ -164,7 +165,7 @@ table{
 
 td{
   padding: 10px;
-  border-color: #c5c4c4;
+  border: 1px solid #c5c4c4;  
   font-weight: bold;
   background: #e2e2e2;
 }
